@@ -1,0 +1,12 @@
+0. //ul[@id="gh-topl"] | //ul[@id="gh-eb"]
+1. //div[@aria-controls!="x-refine__group__0"]//h3[@class="x-refine__item"]
+2a. //div[@aria-controls!="x-refine__group__0"]//h3[@class="x-refine__item"][text()="Brand"]
+2b. //div[@aria-controls!="x-refine__group__0"]//h3[@class="x-refine__item"][text()="Color"]
+3.//div[@aria-controls!="x-refine__group__0"]//h3[@class="x-refine__item"][text()="Brand"]/ancestor::li[@class="x-refine__main__list "]//span[@class="cbx x-refine__multi-select-cbx"][text()="adidas"]
+    //div[@aria-controls!="x-refine__group__0"]//h3[@class="x-refine__item"][text()="Color"]/ancestor::li[@class="x-refine__main__list "]//span[@class="cbx x-refine__multi-select-cbx"][text()="Blue"]
+4.//ul[@class="srp-results srp-grid clearfix"]//span[@role="heading" and contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'ultrab')]/text()
+5.//li[@id="gh-eb-My"]//ul[@id="gh-ul-nav"]/li/a
+3ways on how to pause the webpage:
+1) fn+F8 to paues the script execution
+2) set a breakpoint on attribute modification: find the dropdown menu link in Elements (DevTools) and check what is changing when you trigger it. Then set up a breakpoint on attribute modification and next time you trigger it, the page will be paused.
+3) setTimeout(function() {debugger;}, 3000); - write this in console
