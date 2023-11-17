@@ -4,7 +4,7 @@
 2b. //div[@aria-controls!="x-refine__group__0"]//h3[@class="x-refine__item"][text()="Color"]
 3.//div[@aria-controls!="x-refine__group__0"]//h3[@class="x-refine__item"][text()="Brand"]/ancestor::li[@class="x-refine__main__list "]//span[@class="cbx x-refine__multi-select-cbx"][text()="adidas"]
     //div[@aria-controls!="x-refine__group__0"]//h3[@class="x-refine__item"][text()="Color"]/ancestor::li[@class="x-refine__main__list "]//span[@class="cbx x-refine__multi-select-cbx"][text()="Blue"]
-4.//ul[@class="srp-results srp-grid clearfix"]//span[@role="heading" and contains(translate(., 'ABC', 'abc'), 'ultrab')]/text()
+4.//ul[@class="srp-results srp-grid clearfix"]//span[@role="heading" and contains(translate(., 'ABC', 'abc'), 'makechange')]/text()
 5.//li[@id="gh-eb-My"]//ul[@id="gh-ul-nav"]/li/a
 3ways on how to pause the webpage:
 1) fn+F8 to paues the script execution
